@@ -3,4 +3,7 @@
 void main() {
     Fatorial fatorial = new Fatorial();
     fatorial.executarFatorial(20);
+
+    FatorialBigDecimal bigFatorial = new FatorialBigDecimal();
+    bigFatorial.executarBigFatorial(100);
 }
