@@ -5,5 +5,5 @@ void main() {
     fatorial.executarFatorial(20);
 
     FatorialBigDecimal bigFatorial = new FatorialBigDecimal();
-    bigFatorial.executarBigFatorial(100);
+    bigFatorial.executarBigFatorial(5);
 }

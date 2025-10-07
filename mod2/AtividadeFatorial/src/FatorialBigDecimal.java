@@ -8,7 +8,7 @@ public class FatorialBigDecimal {
     private BigDecimal calcularFatorialPD(int n) {
         // Validação de entrada
         if (n < 0) throw new IllegalArgumentException("Não é possível calcular fatorial de número negativo");
-        if (n >= MAX_ELEMENTOS) throw new IllegalArgumentException("Número " + n + " excede o limite máximo de " + (MAX_ELEMENTOS - 1));
+        if (n > MAX_ELEMENTOS) throw new IllegalArgumentException("Número " + n + " excede o limite máximo de " + (MAX_ELEMENTOS));
 
         // Inicializa o cache
         for (int i = 0; i < MAX_ELEMENTOS; i++) fatorialCache[i] = null;
